@@ -16,12 +16,12 @@
             class="w-auto h-[40px] mr-2 hover:shadow-lg hover:scale-95 transition duration-300 ease-in-out"
             src="../img/logo.png" alt="Logo"></a>
         <a href="../php_tabs/index.php"><span
-            class="hover:text-[#ffede8] text-xl font-bold cursor-pointer text-[#891c00] transition duration-300 ease-in-out">
+            class="hover:text-[#ffede8] text-xl font-bold cursor-pointer text-[#891c00] transition duration-300 ease-in-out tracking-wider">
             <?php echo "Kent's Kitchen"; ?></span></a>
       </div>
     </section>
     <section>
-      <ul class="font-semibold text-[#891c00] flex gap-7 text-base">
+      <ul class="font-semibold text-[#891c00] flex gap-7 text-base tracking-wider">
         <a href="../php_tabs/index.php">
           <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Home"; ?></li>
         </a>
@@ -36,7 +36,7 @@
     <section>
       <div class="relative">
         <input type="text"
-          class="bg-[#fff4eb] text-[#891c00] rounded-full py-2 pl-4 pr-12 focus:outline-none focus:ring focus:ring-[#ea674a] focus:border-[#de3300] shadow-lg"
+          class="bg-[#fff4eb] text-[#891c00] rounded-full py-2 pl-4 pr-12 focus:outline-none focus:ring focus:ring-[#ea674a] focus:border-[#de3300] shadow-lg tracking-wider"
           placeholder="Search a recipe...">
         <button type="button" class="absolute top-1/2 right-2 transform -translate-y-1/2 text-gray-600">
           <img class="w-auto h-7 opacity-30" src="../img/search-icon.png" alt="search">

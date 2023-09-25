@@ -58,7 +58,7 @@
       <video class="rounded-xl w-[1200px] h-auto shadow-xl" src="../img/food-shorts.mp4" loop muted autoplay></video>
       <hr class="border mt-5 w-[70%] m-auto border-[#ffdad2]">
       <div class="mt-4 flex justify-center">
-        <p class="text-[15px] font-semibold cursor-default"><?php echo "Visit & Follow Us On:"?></p>
+        <p class="text-[#ffede8] font-semibold cursor-default"><?php echo "Visit & Follow Us On:"?></p>
         <a href="https://www.facebook.com/profile.php?id=100091118010053" target="_blank"><img
             class="w-[20px] ml-2 rounded-md hover:shadow-md" src="../img/fb-logo.png" alt=""></a>
         <a href="https://www.instagram.com/kents_kitchen24/" target="_blank"><img
