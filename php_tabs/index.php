@@ -11,10 +11,16 @@
   <link rel="stylesheet" href="../dist/output.css">
 </head>
 
-<body class="container m-auto bg-[#ffe9d8] w-full h-auto">
-  <?php include('navbar.php');
+
+
+<body class="">
+  <div class="">
+    <?php include('navbar.php');
   ?>
-  <div class="bg-red-300 w-full h-auto">yow</div>
+    <h1>yow</h1>
+  </div>
+
+
 </body>
 
 </html>
