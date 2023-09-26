@@ -134,6 +134,8 @@
       </section>
     </div>
   </div>
+  <hr class="mt-5 mx-20 -mb-20 border-[#a52300] border">
+  <?php include('footer.php');?>
 </body>
 
 <style>

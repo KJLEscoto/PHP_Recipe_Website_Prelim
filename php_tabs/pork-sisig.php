@@ -91,7 +91,9 @@
         </div>
       </a>
     </div>
-
+  </div>
+  <div class="-mt-40">
+    <?php include("footer.php")?>
   </div>
 </body>
 

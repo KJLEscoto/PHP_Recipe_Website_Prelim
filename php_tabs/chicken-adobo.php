@@ -70,6 +70,22 @@
         <img class="w-[500px] h-[350px] rounded-md ml-5 shadow-md" src="../img/procedure-sponge.gif" alt="">
       </div>
     </section>
+    <div class="flex justify-between">
+      <a href="../php_tabs/pork-sisig.php">
+        <div
+          class="text-end mt-20 text-lg tracking-wider hover:underline text-[#a52300] hover:text-[#ffede8] transition-colors duration-200 ease-out">
+          < Pork Sisig </div>
+      </a>
+      <a href="../php_tabs/pancit-guisado.php">
+        <div
+          class="text-end mt-20 text-lg tracking-wider hover:underline text-[#a52300] hover:text-[#ffede8] transition-colors duration-200 ease-out">
+          Pancit Guisado >
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="-mt-40">
+    <?php include("footer.php")?>
   </div>
 </body>
 

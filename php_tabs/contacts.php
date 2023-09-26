@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="../dist/output.css">
 </head>
 
-<body class="gradient-bg overflow-hidden">
+<body class="gradient-bg lg:overflow-hidden">
   <?php include('navbar.php');?>
   <section class="p-20 mt-10 flex">
     <div class="text-justify mr-10">
@@ -23,7 +23,7 @@
       <p class="mt-3 text-lg text-[#ffede8] tracking-wider">
         <?php echo "On this website, you'll find a wide range of recipes to suit all tastes and preferences. From quick and easy weeknight meals to more complex dishes for special occasions, I've got you covered. I also understand the importance of dietary restrictions, so I've included plenty of options for those following a vegetarian, vegan, or gluten-free diet. So, take a look around, find a recipe that catches your eye, and let's get cooking!"?>
       </p>
-      <hr class="mt-5">
+      <hr class="mt-5 border-[#a52300]">
 
       <h1 class="mt-5 text-[#a52300] font-bold text-3xl">Send Us Recommendation!</h1>
 
@@ -41,7 +41,6 @@
             type="text" name="subject" id="subject" required>
         </div>
       </div>
-
       <div class="pt-5">
         <label class="text-[#ffede8]"><?php echo "Message:";?></label><br>
         <textarea
