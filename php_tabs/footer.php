@@ -6,7 +6,7 @@
     <p class="m-auto font-semibold">Recipe Website | Web Programming</p>
   </div>
   <div class="mt-3">
-    <p class="text-center m-auto">
+    <p class="text-center m-auto md:text-base text-xs duration-300">
       <?php echo "Kent Joemar L. Escoto | BSCS | &copy; ", date("Y"), ". Kent's Kitchen. All Rights Reserved."?>
     </p>
   </div>
