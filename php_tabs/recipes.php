@@ -156,7 +156,7 @@
         <section class="m-auto items-center justify-center text-center">
           <img class="mb-10" src="../img/giphy-rec.gif" alt="">
           <button
-            class="border-[#ffdad2] border-2 font-semibold p-3 rounded-xl bg-[#c12b00] text-[#ffdad2] hover:border-[#c12b00] hover:text-[#c12b00] hover:bg-[#ffdad2] transition-all duration-300 ease-in-out">View
+            class="hover:border-[#ffdad2] border-2 font-semibold p-3 rounded-xl hover:bg-[#c12b00] hover:text-[#ffdad2] border-[#c12b00] text-[#c12b00] bg-[#ffdad2] transition-all duration-300 ease-in-out">View
             Upcoming
             Recipes...</button>
         </section>

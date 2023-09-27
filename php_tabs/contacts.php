@@ -15,7 +15,9 @@
   <?php include('navbar.php');?>
   <section class="mt-32 flex md:px-20 px-10 duration-300">
     <div class="text-justify xl:mr-10">
-      <h1 class="text-[#a52300] font-bold md:text-5xl sm:text-3xl text-2xl duration-300">
+      <h1 class="text-[#a52300] font-bold md:text-5xl sm:text-3xl text-2xl duration-300 hidden xl:block">
+        <?php echo "About This Website!";?></h1>
+      <h1 class="text-[#a52300] font-bold md:text-5xl text-center sm:text-3xl text-2xl duration-300 xl:hidden block">
         <?php echo "About This Website!";?></h1>
       <p class="text-[#ffede8] mt-7 md:tracking-wider tracking-widest md:text-lg sm:text-base text-sm duration-300">
         <?php echo "Hello, and welcome to Kent’s Kitchen recipe website! As a passionate home cook and food enthusiast, I created this
@@ -42,10 +44,12 @@
   </section>
   <hr class="mt-10 border-[#a52300]">
   <div class="md:px-20 px-10">
-    <h1 class="mt-5 text-[#a52300] font-bold md:text-5xl sm:text-3xl text-2xl duration-300">
+    <h1 class="mt-5 text-[#a52300] font-bold md:text-5xl sm:text-3xl text-2xl duration-300 hidden xl:block">
       Send Us Recommendation!
     </h1>
-
+    <h1 class="mt-5 text-[#a52300] font-bold md:text-5xl sm:text-3xl text-2xl duration-300 text-center xl:hidden block">
+      Send Us Recommendation!
+    </h1>
     <div class="xl:flex pt-5 justify-between block m-auto">
       <div class="xl:w-1/2">
         <label
@@ -67,9 +71,12 @@
       <textarea
         class="w-full h-24 text-[#891c00] border border-gray-300 p-2 rounded focus:outline-none focus:ring focus:ring-[#ea674a] focus:border-[#de3300] resize-none"
         name="message" id="message" required></textarea>
-      <form class="pt-5" action="contact.php" method="post" onsubmit="return onSubmit()">
+      <form class="pt-5 text-center justify-center" action="contact.php" method="post" onsubmit="return onSubmit()">
         <input
-          class="hover:border-[#ffdad2] border-2 font-semibold px-3 py-2 rounded hover:bg-[#c12b00] hover:text-[#ffdad2] border-[#c12b00] text-[#c12b00] bg-[#ffdad2] transition-all duration-300 ease-in-out md:text-lg sm:text-base text-sm"
+          class="hover:border-[#ffdad2] border-2 font-semibold px-3 py-2 rounded hover:bg-[#c12b00] hover:text-[#ffdad2] border-[#c12b00] text-[#c12b00] bg-[#ffdad2] transition-all duration-300 ease-in-out md:text-lg sm:text-base text-sm hidden xl:block"
+          type="submit" value="SEND NOW!" name="send">
+        <input
+          class="hover:border-[#ffdad2] border-2 font-semibold px-3 py-2 rounded hover:bg-[#c12b00] hover:text-[#ffdad2] border-[#c12b00] text-[#c12b00] bg-[#ffdad2] transition-all duration-300 ease-in-out md:text-lg sm:text-base text-sm xl:hidden block m-auto"
           type="submit" value="SEND NOW!" name="send">
       </form>
     </div>

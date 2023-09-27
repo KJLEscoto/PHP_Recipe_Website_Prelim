@@ -14,19 +14,20 @@
 
 <body id="gradient-bg">
   <?php include('navbar.php');?>
-  <hr class="m-auto w-4/5 border mt-52 border-[#a52300]">
-  <section class="p-20 flex">
-    <div class="w-screen flex text-center justify-center items-center mb-10">
-      <div class="items-center">
-        <p class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl p-5 duration-300 text-[#973722]">FOOD IS
-          LIFE.</p>
-        <hr class="m-auto w-4/5 border-2 border-[#a52300]">
-        <p class="md:text-5xl lg:text-6xl xl:text-7xl duration-300 text-3xl p-4 font-bold text-[#761700]">Filipino
-          Recipe Ideas</p>
+  <div class="bg-[url('../img/home-bg.jpg')] bg-cover mt-52 bg-center opacity-80 duration-300 shadow-md">
+    <section class="p-20 flex">
+      <div class="w-screen flex text-center justify-center items-center mb-10">
+        <div class="items-center">
+          <p class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl p-5 duration-300 text-[#973722]">FOOD IS
+            LIFE.</p>
+          <hr class="m-auto w-4/5 border-2 border-[#a52300]">
+          <p class="md:text-5xl lg:text-6xl xl:text-7xl duration-300 text-3xl p-4 font-bold text-[#761700]">Filipino
+            Recipe Ideas</p>
+        </div>
       </div>
-    </div>
-  </section>
-  <hr class="m-auto w-4/5 border border-[#a52300]">
+    </section>
+  </div>
+
   <?php include('footer.php');?>
 </body>
 
