@@ -8,9 +8,10 @@
   <link rel="shortcut icon" type="x-icon" href="../img/logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
   <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="gradient-bg.css">
 </head>
 
-<body class="gradient-bg lg:overflow-hidden">
+<body id="gradient-bg" class="lg:overflow-hidden">
   <?php include('navbar.php');?>
   <section class="p-20 mt-10 flex">
     <div class="text-justify mr-10">
@@ -87,26 +88,5 @@
   }
   </script>
 </body>
-
-<style>
-.gradient-bg {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(150deg, #550d00, #ea674a, #f48f78, #ff993b, #9e5500);
-  background-size: 200% 200%;
-  animation: gradientBounce 5s linear infinite alternate;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes gradientBounce {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  100% {
-    background-position: 100% 50%;
-  }
-}
-</style>
 
 </html>

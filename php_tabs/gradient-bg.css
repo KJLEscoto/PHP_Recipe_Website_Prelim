@@ -1,0 +1,18 @@
+#gradient-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(150deg, #550d00, #ea674a, #f48f78, #ff993b, #9e5500);
+  background-size: 200% 200%;
+  animation: gradientBounce 5s linear infinite alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes gradientBounce {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
