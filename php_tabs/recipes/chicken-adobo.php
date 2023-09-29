@@ -6,9 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipes - Chicken Adobo | Kent's Kitchen</title>
   <link rel="shortcut icon" type="x-icon" href="../../img/logo.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
   <link rel="stylesheet" href="../../dist/output.css">
-  <link rel="stylesheet" href="../gradient-bg.css">
+  <link rel="stylesheet" href="../../dist/gradient-bg.css">
 </head>
 
 <body id="gradient-bg">

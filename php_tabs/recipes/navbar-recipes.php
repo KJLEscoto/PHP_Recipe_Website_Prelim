@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="../../dist/output.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
 
 <nav id="navbar" class="py-5 md:px-20 px-10 duration-300 fixed top-0 left-0 w-full z-10">
   <header class="mx-auto flex items-center justify-between duration-300">
