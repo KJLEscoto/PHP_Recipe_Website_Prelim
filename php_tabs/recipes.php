@@ -15,7 +15,7 @@
   <?php include('navbar.php');?>
   <div class="md:p-20 p-10 mt-20">
     <div class="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid gap-10">
-      <a href="../php_tabs/pork-sisig.php">
+      <a href="../php_tabs/recipes/pork-sisig.php">
         <div class="flex flex-col h-full">
           <section
             class="bg-gradient-to-b from-[#fbb5a5] via-[#fbb5a5] to-[#c12b00] shadow-md overflow-hidden rounded-lg hover:scale-95 transition duration-300 ease-in-out">
@@ -43,7 +43,7 @@
         </div>
       </a>
 
-      <a href="../php_tabs/chicken-adobo.php">
+      <a href="../php_tabs/recipes/chicken-adobo.php">
         <div class="flex flex-col h-full">
           <section
             class="bg-gradient-to-b from-[#fbb5a5] via-[#fbb5a5] to-[#c12b00] shadow-md overflow-hidden rounded-lg hover:scale-95 transition duration-300 ease-in-out">
@@ -69,7 +69,7 @@
         </div>
       </a>
 
-      <a href="../php_tabs/pancit-guisado.php">
+      <a href="../php_tabs/recipes/pancit-guisado.php">
         <div class="flex flex-col h-full">
           <section
             class="bg-gradient-to-b from-[#fbb5a5] via-[#fbb5a5] to-[#c12b00] shadow-md overflow-hidden rounded-lg hover:scale-95 transition duration-300 ease-in-out">
@@ -97,7 +97,7 @@
         </div>
       </a>
 
-      <a href="../php_tabs/pinakbet.php">
+      <a href="../php_tabs/recipes/pinakbet.php">
         <div class="flex flex-col h-full">
           <section
             class="bg-gradient-to-b from-[#fbb5a5] via-[#fbb5a5] to-[#c12b00] shadow-md overflow-hidden rounded-lg hover:scale-95 transition duration-300 ease-in-out">
@@ -126,7 +126,7 @@
         </div>
       </a>
 
-      <a href="../php_tabs/beef-pares.php">
+      <a href="../php_tabs/recipes/beef-pares.php">
         <div class="flex flex-col h-full">
           <section
             class="bg-gradient-to-b from-[#fbb5a5] via-[#fbb5a5] to-[#c12b00] shadow-md overflow-hidden rounded-lg hover:scale-95 transition duration-300 ease-in-out">

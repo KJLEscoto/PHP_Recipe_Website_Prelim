@@ -4,23 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipes - Pork Sisig | Kent's Kitchen</title>
-  <link rel="shortcut icon" type="x-icon" href="../img/logo.png">
+  <title>Recipes - Chicken Adobo | Kent's Kitchen</title>
+  <link rel="shortcut icon" type="x-icon" href="../../img/logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
-  <link rel="stylesheet" href="../dist/output.css">
-  <link rel="stylesheet" href="gradient-bg.css">
+  <link rel="stylesheet" href="../../dist/output.css">
+  <link rel="stylesheet" href="../gradient-bg.css">
 </head>
 
 <body id="gradient-bg">
-  <?php include('navbar.php');?>
+  <?php include('navbar-recipes.php');?>
   <div class="md:p-20 p-10 mt-20">
     <h1
       class="text-3xl font-bold text-[#a52300] md:-mt-10 mb-10 text-center tracking-wide block lg:hidden duration-300">
       Chicken Adobo</h1>
     <section class="lg:flex block m-auto">
-      <img class="shadow-lg w-full h-auto rounded-md mb-10 duration-300 lg:hidden block" src="../img/adobo.jpg"
+      <img class="shadow-lg w-full h-auto rounded-md mb-10 duration-300 lg:hidden block" src="../../img/adobo.jpg"
         alt="adobo">
-      <img class="shadow-lg w-[700px] h-[450px] rounded-md mb-10 duration-300 hidden lg:block" src="../img/adobo.jpg"
+      <img class="shadow-lg w-[700px] h-[450px] rounded-md mb-10 duration-300 hidden lg:block" src="../../img/adobo.jpg"
         alt="adobo">
       <div class="justify-center text-justify m-auto">
         <h1 class="text-3xl font-bold text-[#a52300] mb-10 text-center tracking-wide hidden lg:block">Chicken Adobo</h1>
@@ -47,9 +47,9 @@
     <section class="mt-10">
       <h1 class="font-bold text-3xl text-[#a52300] text-center m-auto tracking-wide mb-5">Ingredients</h1>
       <img class="m-auto rounded-md shadow-md w-[500px] h-[350px] mb-10 md:block hidden"
-        src="../img/ingredients-sponge.gif" alt="">
-      <img class="m-auto rounded-md shadow-md w-full h-auto mb-10 md:hidden block" src="../img/ingredients-sponge.gif"
-        alt="">
+        src="../../img/ingredients-sponge.gif" alt="">
+      <img class="m-auto rounded-md shadow-md w-full h-auto mb-10 md:hidden block"
+        src="../../img/ingredients-sponge.gif" alt="">
       <div class="grid grid-cols-1 md:grid-cols-2 md:gap-5 text-[#ffede8]">
         <ul class="list-disc px-5 lg:text-lg md:text-base text-sm tracking-wider duration-300">
           <li>1 kilogram chicken, cut into serving pieces</li>
@@ -84,18 +84,18 @@
             Chicken Adobo!</p>
           <p class="text-sm mt-5 text-[#a52300] lg:block hidden">Enjoy your delicious and savory Chicken Adobo!</p>
         </ul>
-        <img class="w-[500px] h-[350px] rounded-md ml-5 shadow-md hidden lg:block" src="../img/procedure-sponge.gif"
+        <img class="w-[500px] h-[350px] rounded-md ml-5 shadow-md hidden lg:block" src="../../img/procedure-sponge.gif"
           alt="">
-        <img class="w-full h-auto rounded-md shadow-md lg:hidden block" src="../img/procedure-sponge.gif" alt="">
+        <img class="w-full h-auto rounded-md shadow-md lg:hidden block" src="../../img/procedure-sponge.gif" alt="">
       </div>
     </section>
     <div class="flex justify-between">
-      <a href="../php_tabs/pork-sisig.php">
+      <a href="../../php_tabs/recipes/pork-sisig.php">
         <div
           class="text-end mt-20 lg:text-lg text-base tracking-wider text-[#a52300] hover:text-[#ffede8] transition-colors duration-200 ease-out">
           < Pork Sisig </div>
       </a>
-      <a href="../php_tabs/pancit-guisado.php">
+      <a href="../../php_tabs/recipes/pancit-guisado.php">
         <div
           class="text-end mt-20 lg:text-lg text-base tracking-wider text-[#a52300] hover:text-[#ffede8] transition-colors duration-200 ease-out">
           Pancit Guisado >
@@ -104,7 +104,7 @@
     </div>
   </div>
   <div class="-mt-40">
-    <?php include("footer.php")?>
+    <?php include("../footer.php")?>
   </div>
 </body>
 
