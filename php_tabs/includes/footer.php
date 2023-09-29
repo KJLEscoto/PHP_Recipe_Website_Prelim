@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../dist/output.css">
+<link rel="stylesheet" href="../../dist/output.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
 
 <footer class="bg-[#e54f2f] w-full h-32 justify-center text-[#891c00] tracking-wider mt-40 shadow-xl">

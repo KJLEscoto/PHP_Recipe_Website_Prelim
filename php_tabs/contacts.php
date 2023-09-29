@@ -12,7 +12,7 @@
 </head>
 
 <body id="gradient-bg">
-  <?php include('navbar.php');?>
+  <?php include('./includes/navbar.php');?>
   <section class="mt-32 flex md:px-20 px-10 duration-300">
     <div class="text-justify xl:mr-10">
       <h1 class="text-[#a52300] font-bold md:text-5xl sm:text-3xl text-2xl duration-300 hidden xl:block">
@@ -82,7 +82,7 @@
     </div>
   </div>
   <div class="-mt-20">
-    <?php include("footer.php")?>
+    <?php include("./includes/footer.php")?>
   </div>
 
   <script>

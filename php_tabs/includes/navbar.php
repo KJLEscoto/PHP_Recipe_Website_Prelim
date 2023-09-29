@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../dist/output.css">
+<link rel="stylesheet" href="../../dist/output.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css">
 
 <!--
@@ -12,9 +12,9 @@
   <header class="mx-auto flex items-center justify-between duration-300">
     <section class="">
       <div class="flex items-center">
-        <a href="../php_tabs/index.php"><img
+        <a href=".././php_tabs/index.php"><img
             class="w-auto h-[40px] mr-2 hover:shadow-lg hover:scale-95 transition duration-300 ease-in-out"
-            src="../img/logo.png" alt="Logo"></a>
+            src=".././img/logo.png" alt="Logo"></a>
         <a href="../php_tabs/index.php"><span
             class="hover:text-[#ffede8] text-xl font-bold cursor-pointer text-[#891c00] transition duration-300 ease-in-out tracking-wider">
             <?php echo "Kent's Kitchen"; ?></span></a>
@@ -22,13 +22,13 @@
     </section>
     <section class="lg:block hidden">
       <ul class="font-semibold text-[#891c00] flex gap-7 text-base tracking-wider">
-        <a href="../php_tabs/index.php">
+        <a href=".././php_tabs/index.php">
           <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Home"; ?></li>
         </a>
-        <a href="../php_tabs/recipes.php">
+        <a href=".././php_tabs/recipes.php">
           <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Recipes"; ?></li>
         </a>
-        <a href="../php_tabs/contacts.php">
+        <a href=".././php_tabs/contacts.php">
           <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Contact"; ?></li>
         </a>
       </ul>
@@ -53,13 +53,13 @@
   </header>
   <section id="responsive-menu" class="lg:hidden hidden text-end">
     <ul class="font-semibold text-[#891c00] flex flex-col gap-4 text-base tracking-wider">
-      <a href="../php_tabs/index.php">
+      <a href=".././php_tabs/index.php">
         <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Home"; ?></li>
       </a>
-      <a href="../php_tabs/recipes.php">
+      <a href=".././php_tabs/recipes.php">
         <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Recipes"; ?></li>
       </a>
-      <a href="../php_tabs/contacts.php">
+      <a href=".././php_tabs/contacts.php">
         <li class="hover:text-[#ffede8] transition duration-300 ease-in-out"><?php echo "Contact"; ?></li>
       </a>
     </ul>

@@ -103,7 +103,7 @@
     </div>
   </div>
   <div class="-mt-40">
-    <?php include("../footer.php")?>
+    <?php include("../includes/footer.php")?>
   </div>
 </body>
 

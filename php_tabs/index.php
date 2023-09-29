@@ -13,7 +13,7 @@
 </head>
 
 <body id="gradient-bg">
-  <?php include('navbar.php');?>
+  <?php include('./includes/navbar.php');?>
   <div class="bg-[url('../img/home-bg.jpg')] bg-cover mt-52 bg-center opacity-80 duration-300 shadow-md">
     <section class="p-20 flex">
       <div class="w-screen flex text-center justify-center items-center mb-10">
@@ -28,7 +28,7 @@
     </section>
   </div>
 
-  <?php include('footer.php');?>
+  <?php include('./includes/footer.php');?>
 </body>
 
 </html>

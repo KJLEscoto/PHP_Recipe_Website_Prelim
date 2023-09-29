@@ -12,7 +12,7 @@
 </head>
 
 <body id="gradient-bg">
-  <?php include('navbar.php');?>
+  <?php include('./includes/navbar.php');?>
   <div class="md:p-20 p-10 mt-20">
     <div class="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid gap-10">
       <a href="../php_tabs/recipes/pork-sisig.php">
@@ -164,7 +164,7 @@
     </div>
   </div>
   <hr class="mt-5 mx-20 -mb-24 border-[#a52300]">
-  <?php include('footer.php');?>
+  <?php include('./includes/footer.php');?>
 </body>
 
 </html>
