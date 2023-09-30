@@ -68,6 +68,12 @@
 
 <script>
 const navbar = document.getElementById('navbar');
+const responsiveMenu = document.getElementById('responsive-menu');
+
+function toggleBackgroundColor() {
+  navbar.classList.toggle('bg-[#e54f2f]', 'bg-opacity-90', 'transition-all', 'ease-in-out',
+    'shadow-lg');
+}
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > 0) {
@@ -80,11 +86,11 @@ window.addEventListener('scroll', () => {
 
 document.addEventListener("DOMContentLoaded", function() {
   const menuButton = document.getElementById("menu-button");
-  const responsiveMenu = document.getElementById("responsive-menu");
   const menuIcon = document.getElementById("menu-icon");
 
   menuButton.addEventListener("click", function() {
     responsiveMenu.classList.toggle("hidden");
+    toggleBackgroundColor();
 
     if (responsiveMenu.classList.contains("hidden")) {
       menuIcon.innerHTML = '<img class="w-auto h-7 opacity-80" src="../img/menu-icon.png" alt="Menu">';
